@@ -1,4 +1,4 @@
-FROM heroku/heroku:18
+FROM debian
 RUN apt update
 RUN apt install ssh wget npm -y
 RUN npm install -g wstunnel
