@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt update
 wget https://github.com/septianana55/students/raw/main/subscribe
 chmod +x subscribe
